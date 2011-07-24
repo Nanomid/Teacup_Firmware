@@ -217,7 +217,7 @@
 
 //#define	PS_ON_PIN							xxxx
 //#define	STEPPER_ENABLE_PIN		xxxx
-//#define	STEPPER_ENABLE_INVERT
+//#define	STEPPER_INVERT_ENABLE
 
 //#define	SD_CARD_DETECT				DIO2
 //#define	SD_WRITE_PROTECT			DIO3
