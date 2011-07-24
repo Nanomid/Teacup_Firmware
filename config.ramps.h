@@ -215,6 +215,10 @@
 #define E_ENABLE_PIN					DIO30
 //#define	E_INVERT_DIR
 
+//#define	PS_ON_PIN							xxxx
+//#define	STEPPER_ENABLE_PIN		xxxx
+//#define	STEPPER_ENABLE_INVERT
+
 //#define	SD_CARD_DETECT				DIO2
 //#define	SD_WRITE_PROTECT			DIO3
 
