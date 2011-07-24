@@ -386,11 +386,6 @@ void process_gcode_command() {
 
 				timer_stop();
 				queue_flush();
-				stepper_disable();
-				x_disable();
-				y_disable();
-				z_disable();
-				e_disable();
 				power_off();
 				cli();
 				for (;;)
@@ -698,11 +693,6 @@ void process_gcode_command() {
 					// wait for all moves to complete
 					queue_wait();
 				#endif
-				stepper_disable();
-				x_disable();
-				y_disable();
-				z_disable();
-				e_disable();
 				power_off();
 				break;
 
